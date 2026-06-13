@@ -1,19 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <!-- أذونات الموقع الجغرافي -->
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <!-- أذونات الإنترنت -->
-    <uses-permission android:name="android.permission.INTERNET" />
-    <!-- أذونات الإشعارات -->
-    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
-    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
-    <uses-permission android:name="android.permission.VIBRATE" />
-
     <application
-        android:label="مواقيت الصلاة"
+        android:label="tast"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
